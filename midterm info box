@@ -7,16 +7,16 @@
           <!--UPDATES !-->      
           <ul class="BoardList">
             <li><b>There are 7 days until the midterms.</b> 
-                We think the GOP is likely to win control of the House</a>. 
-                The Senate is still a toss-up.</li>
+                We think the GOP is likely to win control of the <a href="https://www.politico.com/2022-election/race-forecasts-ratings-and-predictions/house/" target="_blank">House</a>. 
+                The <a href="https://www.politico.com/2022-election/race-forecasts-ratings-and-predictions/senate/" target="_blank">Senate</a> is still a toss-up.</li>
           </ul>
           <ul class="BoardList has-bullets">
-              <li>See our election team's forecast for every race:
+              <li>Predictions for every race:
                   <a href="https://www.politico.com/2022-election/race-forecasts-ratings-and-predictions/house/" target="_blank">House</a> | 
                   <a href="https://www.politico.com/2022-election/race-forecasts-ratings-and-predictions/senate/" target="_blank">Senate</a> | 
                   <a href="https://www.politico.com/2022-election/race-forecasts-ratings-and-predictions/governors/" target="_blank">Governors
             </li>
-              <li><a href="https://www.politico.com/2022-election/results/" target="_blank">Our elections rig is live. Prep yourself by bookmarking it now and starring the races that are most important to you.</a></li>
+              <li><a href="https://www.politico.com/2022-election/results/" target="_blank">Our elections rig is live. Bookmark it now and star the races that are most important to you.</a></li>
 
           </ul>
        </div>
@@ -142,8 +142,6 @@
 
 .BoardList li {
 	padding-bottom: 5px;
-border-bottom: 0.5px dashed;
-padding-top: 5px;
 }
 
 
@@ -183,17 +181,11 @@ padding-top: 5px;
 		padding-right: 20px;
 	}
     
-    .BoardList li {
-margin-bottom:10px;
-}
     
     .BulletinBoard--main-container ul {
         padding-right: 20px;
     }
 
-    .BoardTag {
-		margin-top: auto;
-	}
 }
 
 
