@@ -1,0 +1,201 @@
+<div class="BulletinBoard">
+    <section class="BulletinBoard--main-container">
+       <div class="BulletinBoard--top-side-container">
+          <div class="BoardHeadline">
+             <h4 class="BoardHeadline-title top-side">Your guide to the midterms</h4>
+          </div>
+          <!--UPDATES !-->      
+          <ul class="BoardList">
+            <li><b>There are 7 days until the midterms.</b> 
+                We think the GOP is likely to win control of the House</a>. 
+                The Senate is still a toss-up.</li>
+          </ul>
+          <ul class="BoardList has-bullets">
+              <li>See our election team's forecast for every race:
+                  <a href="https://www.politico.com/2022-election/race-forecasts-ratings-and-predictions/house/" target="_blank">House</a> | 
+                  <a href="https://www.politico.com/2022-election/race-forecasts-ratings-and-predictions/senate/" target="_blank">Senate</a> | 
+                  <a href="https://www.politico.com/2022-election/race-forecasts-ratings-and-predictions/governors/" target="_blank">Governors
+            </li>
+              <li><a href="https://www.politico.com/2022-election/results/" target="_blank">Our elections rig is live. Prep yourself by bookmarking it now and starring the races that are most important to you.</a></li>
+
+          </ul>
+       </div>
+       <div class="BulletinBoard--bottom-side-container">
+          <div class="BoardHeadline">
+              <h4 class="BoardHeadline-title bottom-side">What you should <i>really</i> be watching</h4>
+          </div>
+          <!-- READING LIST !-->    
+          <p class="BoardDek">Redistricing has thrown this year's midterms into disarray. <a href="#" target="_blank">Our story</a> on how it will affect key battleground races.
+
+ <br><br>Also, we're seeing <a href="#" target="_blank">a lot of TKTK on the ground</a> in advance of election day. How could this play out on Tuesday? <a href="https://www.politico.com/news/2022/08/22/florida-democrats-vs-desantis-a-new-hope-or-best-shot-00053016" target="_blank"> 
+          <div class="BoardTag"><span><a target="_blank" style="font-weight:normal; font-size:10px; color:#404040;" href="https://www.politico.com/news/2022-elections" target="_blank">Read all 2022 elections coverage »</a></span></div>
+       </div>
+    </section>
+ </div>
+ 
+ 
+    
+    
+
+<style>
+
+.BulletinBoard {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 100%;
+}
+
+.BulletinBoard--main-container {
+	background-color: whitesmoke;
+	color: black;
+	display: flex;
+	flex-flow: column nowrap;
+	font-family: "din 2014", "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 30px;
+    border-radius: 5px;
+}
+
+.BulletinBoard--main-container a {
+	text-decoration: none;
+	font-weight: 500;
+	color: #dc0228;
+}
+    
+    .BulletinBoard--main-container a:hover {
+	text-decoration: underline;
+}
+    
+        .BulletinBoard--main-container a:focus {
+	text-decoration: underline;
+}
+
+.BulletinBoard--top-side-container {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 100%;
+}
+
+.BulletinBoard--bottom-side-container {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 100%;
+    border-top: 1px black dotted;
+	margin-top: 20px;
+	padding-left: 0px;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.BoardHeadline {
+	font-family: "din 2014", "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.BoardHeadline-title {
+	background-color: transparent;
+	margin-bottom: 16px;
+}
+
+.BoardHeadline-title.top-side {
+	border-bottom: 0.25px solid rgba(220, 2, 40, 0.9);
+	color: black;
+	font-weight: 700;
+	padding-bottom: 2px;
+    display:inline-block;
+}
+
+.BoardHeadline-title.bottom-side {
+	color: #dc0228;
+	font-weight: 700;
+}
+
+
+.BulletinBoard--bottom-side-container .BoardDek {
+	font-family: georgia;
+	font-size: 16px;
+	margin: 0;
+}
+
+.BoardList {
+	padding: 0px;
+	list-style-type: none;
+    margin: 0;
+	font-size: 1rem;
+}
+
+.BulletinBoard--main-container ul {
+	padding: 0px;
+	list-style-type: none;
+    margin: 0;
+	font-size: 1rem;
+}
+    
+
+.BoardList.has-bullets {
+	list-style-type: disc;
+	margin: 12px 0px 0px 24px;
+}
+
+.BoardList li {
+	padding-bottom: 5px;
+border-bottom: 0.5px dashed;
+padding-top: 5px;
+}
+
+
+.BoardTag {
+	align-self: flex-end;
+	margin-top: 10px;
+}
+
+
+@media (min-width:800px) {
+
+    .BulletinBoard--main-container {
+		flex-flow: row nowrap;
+		padding: 33px 40px;
+	}
+
+	.BulletinBoard--top-side-container {
+		width: 50%;
+	}
+
+	.BulletinBoard--bottom-side-container {
+		width: 50%;
+        border-left: 1px black dotted;
+		padding-left: 20px;
+		height: 100%;
+		border-top: none;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+
+    .BulletinBoard--top-side-container .BoardDek {
+		padding: 28px 0px;
+		margin-right: 10px;
+	}
+
+	.BoardList {
+		padding-right: 20px;
+	}
+    
+    .BoardList li {
+margin-bottom:10px;
+}
+    
+    .BulletinBoard--main-container ul {
+        padding-right: 20px;
+    }
+
+    .BoardTag {
+		margin-top: auto;
+	}
+}
+
+
+</style>
+
