@@ -1,0 +1,193 @@
+<div id="elex-parent">
+   <section class="parent-flex">
+      <div class="elex-today">
+         <div class="headline">
+            <h1 class="story-text__heading-large is-centered has-bottom-margin">The Biden Transition</h1>
+         </div>
+         <div class="updates top-reads">
+            <ul class="reading-list">
+               <!-- DEK !-->
+               <li>Joe Biden may be the new president-elect — but with President Donald Trump continuing to challenge the results and Senate control up still up for grabs, the story of the election is far from over.</li>
+            </ul>
+         </div>
+         <!-- TEMPLATE LIST ITEM
+            <li><a target="_blank" href="URL HERE"></a></li>  
+            
+            !-->
+         <div class="updates">
+            <h4 class="transparent-header head">Biden's plans</h4>
+            <ul class="reading-list">
+               <!-- Biden's transition plans !-->
+               <li>Kathleen Hicks is <a target="_blank" href="https://www.politico.com/news/2020/12/30/biden-first-female-deputy-defense-secretary-452283">Biden’s pick to be the first female deputy defense secretary</a></li>
+               <li>Biden has tapped three senior officials onto <a target="_blank" href="https://www.politico.com/news/2020/12/29/biden-coronavirus-response-coordinators-451996">his Covid-19 Response team</a></li>
+               <li>Biden's transition chief blasts ‘obstruction’ by political appointees <a target="_blank" href="https://www.politico.com/news/2020/12/30/abraham-blasts-trump-omb-pentagon-452354">at OMB and the Pentagon</a></li>
+               <li>Trump's unplanned gift to Biden is that <a target="_blank" href="https://www.politico.com/news/2020/12/29/trump-biden-clean-energy-451546">clean energy is on the rise</a></li>
+            </ul>
+         </div>
+         <div class="updates">
+            <h4 class="transparent-header head">Trump and the GOP</h4>
+            <ul class="reading-list">
+               <!-- Trump and the GOP !--> 
+               <li>Sen. Josh Hawley  <a target="_blank" href="https://www.politico.com/news/2020/12/30/hawley-challenge-biden-electors-forcing-vote-452319">pledged to challenge Biden's victory in Pennsylvania</a> on Jan. 6.</li>
+               <li>Nancy Pelosi will <a target="_blank" href="https://www.politico.com/news/2020/12/30/pelosi-seats-iowa-mariannette-miller-meeks-452332">seat a Republican in a contested Iowa race</a></li>
+               <li>Congress and the coronavirus <a target="_blank" href="https://www.politico.com/news/2020/12/30/electoral-college-biden-trump-452081">could quash Trump's Electoral College gambit</a></li>
+               <li>Sen. Ben Sasse delivered a critique of his Republican colleagues <a target="_blank" href="https://www.politico.com/news/2020/12/31/sasse-gop-election-challenge-453024">challenging 2020 results</a></li>
+            </ul>
+         </div>
+         <div class="updates">
+            <h4 class="transparent-header head">Coming up: Georgia Senate runoffs</h4>
+            <ul class="reading-list">
+               <!-- Georgia senate runoffs !--> 
+               <li>A judge is seeking a <a target="_blank" href="https://www.politico.com/news/2020/12/30/judge-limit-voter-challenges-georgia-runoff-452363">deal to limit voter challenges</a> in the Georgia runoff.</li>
+               <li>Joe Biden and Kamala Harris <a target="_blank" href="https://www.politico.com/news/2020/12/30/biden-harris-back-to-georgia-452236">are going back to Georgia before the Senate runoffs</a></li>
+               <li>Strong early voting turnout <a target="_blank" href="https://www.politico.com/news/2020/12/30/georgia-senate-early-voting-452221">gives Democrats hope in Georgia runoffs</a></li>
+               <li>Sens. Kelly Loeffler and David Perdue <a target="_blank" href="https://www.politico.com/news/2020/12/29/loeffler-trump-stimulus-payments-451860">side with Trump on $2,000 stimulus payments</a></li>
+               <!-- END !-->             
+            </ul>
+         </div>
+      </div>
+   </section>
+</div>
+
+
+	<style>
+        
+#elex-parent {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 100%;
+}
+
+#elex-parent .parent-flex {
+	background-color: whitesmoke;
+	color: black;
+	display: flex;
+	flex-flow: column nowrap;
+	font-family: "din 2014", "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 40px 30px 20px;
+}
+
+#elex-parent .elex-today {
+	display: flex;
+	flex-flow: column nowrap;
+	width: 100%;
+}
+
+#elex-parent .elex-today .updates.top-reads {
+	margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#elex-parent .top-reads ul {
+	list-style-type: none;
+	line-height: 1.5;
+	padding: 0;
+}
+
+#elex-parent .top-reads li {
+	display: inline;
+}
+
+#elex-parent .countdown-number {
+	font-weight: 700;
+	color: #dc0228;
+}
+
+#elex-parent .head-img {
+	max-width: 200px;
+	margin: 0 auto 10px auto;
+	padding-top: 10px;
+}
+
+#elex-parent .elex-today .headline {
+	display: flex;
+	flex-flow: row wrap;
+    justify-content:center;
+}
+
+#elex-parent .elex-today .updates {
+	display: block;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+
+
+
+#elex-parent .parent-flex a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#elex-parent .parent-flex h4 {
+	display: inline-block;
+	font-family: "din 2014", "din-2014", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 3px 5px;
+	text-transform: uppercase;
+}
+
+#elex-parent .reading-list {
+	padding: 0px 0px 0px 20px;
+	list-style-type: disc;
+}
+
+#elex-parent .reading-list li {
+	margin-bottom: 10px;
+}
+
+
+#elex-parent .transparent-header.head {
+	border-bottom: 0.25px solid rgba(220, 2, 40, 0.9);
+	color: black;
+	font-weight: 700;
+	padding: 2px 5px;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+
+
+@media (min-width:768px) {
+
+	#elex-parent .elex-today {
+		width: 100%;
+	}
+
+	#elex-parent .parent-flex {
+		flex-flow: row nowrap;
+		padding: 33px 40px;
+	}
+	#elex-parent .reading-list {
+		padding: 14px 0px 0px 20px;
+	}
+	#elex-parent .headline {
+		text-align: center;
+	}
+
+	#elex-parent .transparent-header.head {
+		margin-bottom: 0px;
+	}
+
+	#elex-parent .elex-today .updates {
+		margin-top: 30px;
+	}
+	#elex-parent .top-reads li {
+		display: inline;
+	}
+	#elex-parent .head-img {
+		margin: 0 auto;
+	}
+}
+
+@media(max-width:576px) {
+	#elex-parent .elex-today .updates.top-reads {
+		margin-top: 0px;
+	}
+          }
+	</style>
+
